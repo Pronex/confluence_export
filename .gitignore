@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+var/
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# caches
+.mypy_cache
+.pytest_cache
+
+# Environments
+*.env
+.venv
+env/
+venv/
+config.yml
+
+# terraform
+terraform.tfvars
+*.auto.tfvars
+*.tfstate
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# Build and test artifacts
+.coverage
+.tox/
+htmlcov/
+*.db
+.dccache
+
+# outputs folder
+output

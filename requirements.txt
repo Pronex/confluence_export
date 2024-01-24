@@ -1,0 +1,19 @@
+# app requirements
+atlassian-python-api~=3.41.9 # confluence and others
+pypdf~=4.0.0 # pdf handler
+asgiref~=3.7.2 # sync to async tools
+
+# tools
+python-dotenv~=1.0.0 # environment variables
+structlog~=23.2.0 # logging
+
+# linting and type checking
+pylint~=3.0.2
+pylint-pydantic~=0.3.0 # Pydantic plugin for pylint
+mypy~=1.6 # type checking
+yapf~=0.40.2 # code formatting
+
+# testing & QA
+# pytest~=7.4.3 # testing
+# tox~=4.11.3 # testing
+# coverage~=7.3.2 # code coverage

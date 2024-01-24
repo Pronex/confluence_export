@@ -1,0 +1,12 @@
+{
+    "python.defaultInterpreterPath": "${workspaceRoot}/.venv/bin/python3.10",
+    "python.analysis.extraPaths": [
+        ".venv",
+        ".venv/lib/python3.10/site-packages"
+    ],
+    "[python]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "eeyore.yapf"
+    }
+}
